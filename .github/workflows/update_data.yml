@@ -1,0 +1,35 @@
+name: Monthly Property Data Sync
+
+on:
+  schedule:
+    # Runs automatically at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allows you to also trigger it manually with 1 click
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v4
+
+    - name: Set up Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas
+
+    - name: Execute Data Fetch Script
+      run: python scripts/fetch_gov_data.py
+
+    - name: Commit and Push Updated JSON Files
+      run: |
+        git config --global user.name "PropSnap Data Bot"
+        git config --global user.email "bot@propsnap.com"
+        git add data/hdb_transactions.json data/private_psf.json
+        git commit -m "Automated Sync: Updated November 2026 transaction data [skip ci]" || exit 0
+        git push
