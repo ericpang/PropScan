@@ -2,13 +2,21 @@ name: Monthly Property Data Sync
 
 on:
   schedule:
-    # Runs automatically at 00:00 UTC on the 1st of every month
-    - cron: '0 0 1 * *'
+    # 02:00 UTC (10:00 SGT) on the 3rd of every month. Data.gov.sg publishes the new HDB resale month around
+    # the 1st and the rental month around the 2nd, so the previous 00:00 UTC on the 1st run missed the rentals.
+    - cron: '0 2 3 * *'
   workflow_dispatch: # Allows you to also trigger it manually with 1 click
+
+# One run at a time, and never cancel a Pages deployment half way.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # the bot commits the refreshed JSON back to the repository
     steps:
     - name: Checkout repository code
       uses: actions/checkout@v4
@@ -16,7 +24,7 @@ jobs:
     - name: Set up Python Environment
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.12'
 
     - name: Install Dependencies
       run: |
@@ -24,12 +32,39 @@ jobs:
         pip install requests pandas
 
     - name: Execute Data Fetch Script
-      run: python scripts/fetch_gov_data.py
+      env:
+        # Both secrets are optional. Without URA_ACCESS_KEY, data/private_psf.json is simply not refreshed.
+        URA_ACCESS_KEY: ${{ secrets.URA_ACCESS_KEY }}
+        DATA_GOV_SG_API_KEY: ${{ secrets.DATA_GOV_SG_API_KEY }}
+      run: python scripts/fetch_gov_data.py --site-dir _site
 
-    - name: Commit and Push Updated JSON Files
+    - name: Commit Updated JSON Files
       run: |
-        git config --global user.name "PropSnap Data Bot"
-        git config --global user.email "bot@propsnap.com"
-        git add data/hdb_transactions.json data/private_psf.json
-        git commit -m "Automated Sync: Updated November 2026 transaction data [skip ci]" || exit 0
-        git push
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add data
+        if git diff --cached --quiet; then
+          echo "No data changes to commit"
+        else
+          git commit -m "Automated sync: property data $(date -u +%Y-%m)"
+          git push
+        fi
+
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v4
+      with:
+        path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write    # publish to GitHub Pages
+      id-token: write # lets deploy-pages verify the deployment source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
