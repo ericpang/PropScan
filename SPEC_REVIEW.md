@@ -1,6 +1,6 @@
 # Spec review: README.MD
 
-First review 31 Oct 2026; updated 1 Nov 2026 after the owner's v1 decisions (README Section 6). Claims were checked against primary documentation and, where possible, live endpoints. This folder has no git history, so this file records each change and the evidence behind it.
+First review 31 Oct 2026; updated 1 Nov 2026 after the owner's v1 decisions (README Section 6). Claims were checked against primary documentation and, where possible, live endpoints. Git history only starts on 1 Nov 2026, after these changes were made, so this file records each change and the evidence behind it.
 
 ## Corrected in README.MD on 31 Oct (still in force)
 
@@ -53,7 +53,7 @@ Checks run: all 127 HDB town/flat-type groups recomputed independently with plai
 
 ## Not verified
 
-- The workflow has never run on GitHub: Pages setup, the `GITHUB_TOKEN` push, and the deploy step are untested.
+- The workflow has not completed a run on GitHub yet (the first run failed because the script had not been pushed): the `GITHUB_TOKEN` push and the Pages deploy are untested.
 - URA live calls (no access key here): only the aggregation logic was tested, with synthetic data.
 - PropertyGuru's DOM (selectors, the "Built:" label, whether a tenure field exists) and whether its street spellings match the lookup keys.
 - OneMap search rate limits; OneMap's official docs were not readable.

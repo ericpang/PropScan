@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository status
 
-`README.MD` is not a conventional README: it is the complete build specification for **PropSnap Investor**, written as a prompt to the implementer (it opens "You are an expert browser extension developer…" and ends with a 5-step build plan). The browser extension itself is not written yet. What exists is the data pipeline that will feed it: `scripts/fetch_gov_data.py`, `.github/workflows/update_data.yml` and the generated `data/*.json`. There is no `package.json`, bundler, linter, test suite or git history.
+`README.MD` is not a conventional README: it is the complete build specification for **PropSnap Investor**, written as a prompt to the implementer (it opens "You are an expert browser extension developer…" and ends with a 5-step build plan). The browser extension itself is not written yet. What exists is the data pipeline that will feed it: `scripts/fetch_gov_data.py`, `.github/workflows/update_data.yml` and the generated `data/*.json`. There is no `package.json`, bundler, linter or test suite. The remote is the public GitHub repo `ericpang/PropScan` (branch `main`); git history starts on 1 Nov 2026.
 
 The spec was fact-checked on 31 Oct 2026 and revised on 1 Nov 2026 after the owner's v1 decisions (README Section 6). `SPEC_REVIEW.md` records every change with its evidence and what could not be verified; read it before "fixing" something in the spec that looks odd. Refresh this file once the extension code exists.
 
 ## Commands
 
 - Refresh the data: `python scripts/fetch_gov_data.py` (needs `requests` and `pandas`; about 35 s; writes `data/`). It spaces its Data.gov.sg calls on purpose (anonymous limits are low). Environment: `URA_ACCESS_KEY` builds `data/private_psf.json` (without it that file is skipped and any existing copy is left alone); `DATA_GOV_SG_API_KEY` is optional. `--site-dir DIR` also stages the GitHub Pages site (data copy plus an `index.html` with the licence notices).
-- The workflow runs monthly (3rd, 02:00 UTC) and on manual dispatch: it commits `data/` and deploys to GitHub Pages. It needs Settings > Pages > Source = "GitHub Actions" and has never run on GitHub yet.
+- The workflow runs monthly (3rd, 02:00 UTC) and on manual dispatch: it commits `data/` and deploys to GitHub Pages. It needs Settings > Pages > Source = "GitHub Actions" (already enabled). The first run on 1 Nov 2026 failed only because the script had not been pushed yet; check the Actions tab for the current status.
 - Load the extension unpacked: open `chrome://extensions` or `edge://extensions`, enable Developer mode, **Load unpacked**, select the extension folder. Safari: `xcrun safari-web-extension-converter <extension-folder>` (macOS + Xcode only; this workspace is Windows).
 
 ## What is being built
@@ -34,4 +34,4 @@ Scaffold the extension in `propsnap-investor/` (spec §2) so the Safari converte
 - Treat the fetched JSON as untrusted: validate its shape and never insert its strings as HTML.
 - Data formats differ: resale `flat_type` is `4 ROOM`, rental is `4-ROOM`; rental calls the town `CENTRAL` where resale says `CENTRAL AREA`. The script already normalises both.
 - Benchmarks are town / district level and monthly. Do not present them as block- or project-level, and do not show a route or walking time as exact.
-- Placeholders still to fill: `<owner>` and `<repo>` (Pages address), the Stripe Payment Link URL, the passphrase hash. Ask the user rather than guessing; also confirm the rental yield and stamp duty tool stay in v1.
+- Placeholders still to fill: `<owner>` and `<repo>` are `ericpang` and `PropScan` (expected Pages address `https://ericpang.github.io/PropScan/`; confirm it from the first deploy), the Stripe Payment Link URL, the passphrase hash. Ask the user rather than guessing; also confirm the rental yield and stamp duty tool stay in v1.
