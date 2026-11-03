@@ -1,8 +1,8 @@
 {
  "meta": {
-  "attribution": "Contains information from LTA MRT Station Exit (GEOJSON) accessed on 2026-11-01 from Data.gov.sg (Land Transport Authority) which is made available under the terms of the Singapore Open Data Licence version 1.0 https://data.gov.sg/open-data-licence",
+  "attribution": "Contains information from LTA MRT Station Exit (GEOJSON) accessed on 2026-11-03 from Data.gov.sg (Land Transport Authority) which is made available under the terms of the Singapore Open Data Licence version 1.0 https://data.gov.sg/open-data-licence",
   "dataset_id": "d_b39d3a0871985372d7e1637193335da5",
-  "generated_on": "2026-11-01",
+  "generated_on": "2026-11-03",
   "name": "LTA MRT Station Exit (GEOJSON)"
  },
  "stations": [

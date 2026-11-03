@@ -1,24 +1,24 @@
 {
  "meta": {
-  "attribution": "Contains information from Resale flat prices based on registration date from Jan-2017 onwards; Renting Out of Flats from Jan 2021 accessed on 2026-11-01 from Data.gov.sg (Housing & Development Board) which is made available under the terms of the Singapore Open Data Licence version 1.0 https://data.gov.sg/open-data-licence",
-  "generated_on": "2026-11-01",
+  "attribution": "Contains information from Resale flat prices based on registration date from Jan-2017 onwards; Renting Out of Flats from Jan 2021 accessed on 2026-11-03 from Data.gov.sg (Housing & Development Board) which is made available under the terms of the Singapore Open Data Licence version 1.0 https://data.gov.sg/open-data-licence",
+  "generated_on": "2026-11-03",
   "rental": {
    "dataset_id": "d_c9f57187485a850908655db0e8cfe651",
-   "months": [
-    "2026-04",
-    "2026-09"
-   ],
-   "name": "Renting Out of Flats from Jan 2021",
-   "source_rows": 212597
-  },
-  "resale": {
-   "dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
    "months": [
     "2026-05",
     "2026-10"
    ],
+   "name": "Renting Out of Flats from Jan 2021",
+   "source_rows": 215469
+  },
+  "resale": {
+   "dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
+   "months": [
+    "2026-06",
+    "2026-11"
+   ],
    "name": "Resale flat prices based on registration date from Jan-2017 onwards",
-   "source_rows": 243874
+   "source_rows": 244005
   }
  },
  "street_to_town": {
@@ -1129,102 +1129,102 @@
     "median_psf": 647,
     "median_rent": 2300,
     "n": 16,
-    "rent_n": 15
+    "rent_n": 14
    },
    "3 ROOM": {
-    "median_price": 416000,
+    "median_price": 416250,
     "median_psf": 553,
     "median_rent": 2800,
-    "n": 227,
-    "rent_n": 671
+    "n": 192,
+    "rent_n": 657
    },
    "4 ROOM": {
-    "median_price": 612500,
-    "median_psf": 590,
-    "median_rent": 3475,
-    "n": 152,
-    "rent_n": 234
+    "median_price": 612000,
+    "median_psf": 587,
+    "median_rent": 3500,
+    "n": 123,
+    "rent_n": 227
    },
    "5 ROOM": {
     "median_price": 972500,
-    "median_psf": 797,
+    "median_psf": 816,
     "median_rent": 3800,
-    "n": 76,
-    "rent_n": 83
+    "n": 62,
+    "rent_n": 86
    },
    "EXECUTIVE": {
     "median_price": 1070000,
     "median_psf": 649,
-    "median_rent": 4200,
+    "median_rent": 4250,
     "n": 4,
-    "rent_n": 3
+    "rent_n": 4
    }
   },
   "BEDOK": {
    "2 ROOM": {
     "median_price": 325000,
-    "median_psf": 681,
-    "median_rent": 2200,
-    "n": 13,
-    "rent_n": 23
+    "median_psf": 671,
+    "median_rent": 2275,
+    "n": 11,
+    "rent_n": 22
    },
    "3 ROOM": {
-    "median_price": 405000,
-    "median_psf": 555,
+    "median_price": 408500,
+    "median_psf": 559,
     "median_rent": 2800,
-    "n": 269,
-    "rent_n": 539
+    "n": 230,
+    "rent_n": 507
    },
    "4 ROOM": {
     "median_price": 600000,
-    "median_psf": 615,
+    "median_psf": 605,
     "median_rent": 3400,
-    "n": 307,
-    "rent_n": 334
+    "n": 270,
+    "rent_n": 345
    },
    "5 ROOM": {
-    "median_price": 815000,
-    "median_psf": 623,
+    "median_price": 820000,
+    "median_psf": 620,
     "median_rent": 3700,
-    "n": 133,
-    "rent_n": 144
+    "n": 120,
+    "rent_n": 149
    },
    "EXECUTIVE": {
     "median_price": 1030000,
     "median_psf": 635,
-    "median_rent": 4150,
-    "n": 49,
-    "rent_n": 29
+    "median_rent": 4200,
+    "n": 43,
+    "rent_n": 30
    }
   },
   "BISHAN": {
    "3 ROOM": {
-    "median_price": 500000,
-    "median_psf": 698,
+    "median_price": 499000,
+    "median_psf": 695,
     "median_rent": 3000,
-    "n": 30,
-    "rent_n": 79
+    "n": 26,
+    "rent_n": 82
    },
    "4 ROOM": {
-    "median_price": 768444,
-    "median_psf": 722,
+    "median_price": 763500,
+    "median_psf": 725,
     "median_rent": 3700,
-    "n": 114,
-    "rent_n": 193
+    "n": 100,
+    "rent_n": 198
    },
    "5 ROOM": {
     "median_price": 970000,
     "median_psf": 744,
-    "median_rent": 4050,
-    "n": 78,
-    "rent_n": 84
+    "median_rent": 4000,
+    "n": 70,
+    "rent_n": 81
    },
    "EXECUTIVE": {
-    "median_price": 1297500,
-    "median_psf": 806,
-    "median_rent": 4500,
-    "n": 30,
-    "rent_n": 15
+    "median_price": 1300000,
+    "median_psf": 814,
+    "median_rent": 4550,
+    "n": 27,
+    "rent_n": 14
    },
    "MULTI-GENERATION": {
     "median_price": 1548888,
@@ -1234,432 +1234,432 @@
   },
   "BUKIT BATOK": {
    "2 ROOM": {
-    "median_price": 380000,
-    "median_psf": 791,
-    "median_rent": 2450,
-    "n": 43,
-    "rent_n": 87
+    "median_price": 373500,
+    "median_psf": 781,
+    "median_rent": 2500,
+    "n": 36,
+    "rent_n": 85
    },
    "3 ROOM": {
-    "median_price": 410444,
+    "median_price": 410000,
     "median_psf": 559,
     "median_rent": 2700,
-    "n": 168,
+    "n": 138,
     "rent_n": 268
    },
    "4 ROOM": {
-    "median_price": 609500,
-    "median_psf": 588,
-    "median_rent": 3300,
-    "n": 330,
-    "rent_n": 281
+    "median_price": 601444,
+    "median_psf": 584,
+    "median_rent": 3325,
+    "n": 280,
+    "rent_n": 250
    },
    "5 ROOM": {
-    "median_price": 805000,
-    "median_psf": 658,
-    "median_rent": 3600,
-    "n": 181,
-    "rent_n": 108
+    "median_price": 800000,
+    "median_psf": 656,
+    "median_rent": 3700,
+    "n": 154,
+    "rent_n": 96
    },
    "EXECUTIVE": {
     "median_price": 852500,
-    "median_psf": 539,
-    "median_rent": 3900,
-    "n": 38,
-    "rent_n": 31
+    "median_psf": 541,
+    "median_rent": 3950,
+    "n": 34,
+    "rent_n": 32
    }
   },
   "BUKIT MERAH": {
    "1 ROOM": {
-    "median_price": 265000,
-    "median_psf": 794,
-    "median_rent": 2000,
-    "n": 5,
-    "rent_n": 8
+    "median_price": 260000,
+    "median_psf": 779,
+    "median_rent": 1900,
+    "n": 4,
+    "rent_n": 6
    },
    "2 ROOM": {
-    "median_price": 300000,
+    "median_price": 305000,
     "median_psf": 630,
     "median_rent": 2600,
-    "n": 19,
-    "rent_n": 43
+    "n": 13,
+    "rent_n": 41
    },
    "3 ROOM": {
-    "median_price": 436500,
-    "median_psf": 603,
+    "median_price": 435000,
+    "median_psf": 594,
     "median_rent": 3000,
-    "n": 142,
-    "rent_n": 472
+    "n": 115,
+    "rent_n": 441
    },
    "4 ROOM": {
     "median_price": 948000,
-    "median_psf": 950,
+    "median_psf": 954,
     "median_rent": 4000,
-    "n": 229,
-    "rent_n": 373
+    "n": 193,
+    "rent_n": 366
    },
    "5 ROOM": {
-    "median_price": 1032500,
-    "median_psf": 830,
-    "median_rent": 4375,
-    "n": 110,
-    "rent_n": 192
+    "median_price": 1030000,
+    "median_psf": 832,
+    "median_rent": 4500,
+    "n": 95,
+    "rent_n": 172
    }
   },
   "BUKIT PANJANG": {
    "2 ROOM": {
     "median_price": 380000,
     "median_psf": 767,
-    "median_rent": 2150,
+    "median_rent": 2200,
     "n": 5,
-    "rent_n": 6
+    "rent_n": 8
    },
    "3 ROOM": {
-    "median_price": 448000,
-    "median_psf": 605,
-    "median_rent": 2700,
-    "n": 52,
-    "rent_n": 56
+    "median_price": 450000,
+    "median_psf": 608,
+    "median_rent": 2600,
+    "n": 47,
+    "rent_n": 49
    },
    "4 ROOM": {
-    "median_price": 567444,
-    "median_psf": 556,
+    "median_price": 575000,
+    "median_psf": 560,
     "median_rent": 3000,
-    "n": 192,
-    "rent_n": 196
+    "n": 150,
+    "rent_n": 189
    },
    "5 ROOM": {
-    "median_price": 697388,
-    "median_psf": 562,
+    "median_price": 690000,
+    "median_psf": 560,
     "median_rent": 3300,
-    "n": 128,
-    "rent_n": 124
+    "n": 113,
+    "rent_n": 128
    },
    "EXECUTIVE": {
-    "median_price": 854444,
-    "median_psf": 561,
+    "median_price": 838000,
+    "median_psf": 555,
     "median_rent": 3700,
-    "n": 44,
-    "rent_n": 31
+    "n": 37,
+    "rent_n": 33
    }
   },
   "BUKIT TIMAH": {
    "3 ROOM": {
     "median_price": 490000,
     "median_psf": 682,
-    "median_rent": 3100,
+    "median_rent": 3200,
     "n": 4,
-    "rent_n": 17
+    "rent_n": 27
    },
    "4 ROOM": {
-    "median_price": 925000,
-    "median_psf": 826,
+    "median_price": 927500,
+    "median_psf": 829,
     "median_rent": 3800,
-    "n": 9,
-    "rent_n": 21
+    "n": 8,
+    "rent_n": 22
    },
    "5 ROOM": {
-    "median_price": 1100000,
-    "median_psf": 833,
+    "median_price": 1050000,
+    "median_psf": 789,
     "median_rent": 4200,
-    "n": 12,
-    "rent_n": 10
+    "n": 11,
+    "rent_n": 9
    },
    "EXECUTIVE": {
-    "median_price": 1387500,
-    "median_psf": 883,
-    "median_rent": 4450,
-    "n": 6,
-    "rent_n": 4
+    "median_price": 1375000,
+    "median_psf": 875,
+    "median_rent": 4500,
+    "n": 7,
+    "rent_n": 3
    }
   },
   "CENTRAL AREA": {
    "2 ROOM": {
-    "median_price": 298000,
-    "median_psf": 574,
-    "median_rent": 1850,
-    "n": 5,
-    "rent_n": 3
+    "median_price": 291500,
+    "median_psf": 548,
+    "median_rent": 2600,
+    "n": 4,
+    "rent_n": 6
    },
    "3 ROOM": {
     "median_price": 565000,
-    "median_psf": 741,
+    "median_psf": 772,
     "median_rent": 3300,
-    "n": 32,
-    "rent_n": 173
+    "n": 27,
+    "rent_n": 156
    },
    "4 ROOM": {
-    "median_price": 980000,
-    "median_psf": 929,
-    "median_rent": 4600,
-    "n": 47,
-    "rent_n": 104
+    "median_price": 830000,
+    "median_psf": 907,
+    "median_rent": 4500,
+    "n": 36,
+    "rent_n": 85
    },
    "5 ROOM": {
     "median_price": 1480000,
     "median_psf": 1297,
     "median_rent": 5100,
-    "n": 18,
-    "rent_n": 34
+    "n": 16,
+    "rent_n": 27
    }
   },
   "CHOA CHU KANG": {
    "2 ROOM": {
     "median_price": 361500,
     "median_psf": 715,
-    "median_rent": 2300,
+    "median_rent": 2250,
     "n": 12,
-    "rent_n": 1
+    "rent_n": 3
    },
    "3 ROOM": {
     "median_price": 430000,
     "median_psf": 547,
-    "median_rent": 2675,
-    "n": 39,
-    "rent_n": 50
+    "median_rent": 2700,
+    "n": 36,
+    "rent_n": 51
    },
    "4 ROOM": {
     "median_price": 550000,
-    "median_psf": 509,
+    "median_psf": 510,
     "median_rent": 3100,
-    "n": 287,
-    "rent_n": 291
+    "n": 239,
+    "rent_n": 301
    },
    "5 ROOM": {
-    "median_price": 662000,
-    "median_psf": 503,
-    "median_rent": 3275,
-    "n": 171,
-    "rent_n": 214
+    "median_price": 666500,
+    "median_psf": 504,
+    "median_rent": 3300,
+    "n": 158,
+    "rent_n": 209
    },
    "EXECUTIVE": {
-    "median_price": 832500,
-    "median_psf": 532,
+    "median_price": 830000,
+    "median_psf": 534,
     "median_rent": 3500,
-    "n": 46,
+    "n": 44,
     "rent_n": 67
    }
   },
   "CLEMENTI": {
    "2 ROOM": {
-    "median_price": 415000,
-    "median_psf": 787,
-    "median_rent": 2800,
-    "n": 3,
-    "rent_n": 2
+    "median_price": 365000,
+    "median_psf": 717,
+    "median_rent": 2500,
+    "n": 2,
+    "rent_n": 3
    },
    "3 ROOM": {
     "median_price": 435000,
-    "median_psf": 582,
+    "median_psf": 576,
     "median_rent": 3000,
-    "n": 117,
-    "rent_n": 373
+    "n": 96,
+    "rent_n": 344
    },
    "4 ROOM": {
-    "median_price": 888888,
-    "median_psf": 881,
+    "median_price": 863500,
+    "median_psf": 862,
     "median_rent": 4000,
-    "n": 105,
-    "rent_n": 243
+    "n": 78,
+    "rent_n": 216
    },
    "5 ROOM": {
-    "median_price": 1100000,
-    "median_psf": 904,
-    "median_rent": 4300,
-    "n": 43,
-    "rent_n": 66
+    "median_price": 1050000,
+    "median_psf": 843,
+    "median_rent": 4350,
+    "n": 35,
+    "rent_n": 68
    },
    "EXECUTIVE": {
-    "median_price": 1040000,
-    "median_psf": 644,
+    "median_price": 1055000,
+    "median_psf": 637,
     "median_rent": 5150,
-    "n": 8,
+    "n": 6,
     "rent_n": 10
    }
   },
   "GEYLANG": {
    "2 ROOM": {
-    "median_price": 280000,
-    "median_psf": 597,
-    "median_rent": 2150,
-    "n": 9,
-    "rent_n": 14
+    "median_price": 279000,
+    "median_psf": 588,
+    "median_rent": 2100,
+    "n": 6,
+    "rent_n": 11
    },
    "3 ROOM": {
-    "median_price": 380000,
-    "median_psf": 554,
+    "median_price": 381000,
+    "median_psf": 564,
     "median_rent": 2900,
-    "n": 163,
-    "rent_n": 279
+    "n": 136,
+    "rent_n": 270
    },
    "4 ROOM": {
-    "median_price": 704000,
-    "median_psf": 669,
+    "median_price": 755000,
+    "median_psf": 674,
     "median_rent": 3800,
-    "n": 114,
-    "rent_n": 156
+    "n": 91,
+    "rent_n": 162
    },
    "5 ROOM": {
-    "median_price": 968888,
-    "median_psf": 683,
+    "median_price": 947388,
+    "median_psf": 672,
     "median_rent": 4000,
-    "n": 33,
-    "rent_n": 46
+    "n": 32,
+    "rent_n": 42
    },
    "EXECUTIVE": {
-    "median_price": 1062500,
-    "median_psf": 669,
-    "median_rent": 4325,
-    "n": 10,
-    "rent_n": 16
+    "median_price": 1080000,
+    "median_psf": 699,
+    "median_rent": 4100,
+    "n": 7,
+    "rent_n": 13
    }
   },
   "HOUGANG": {
    "2 ROOM": {
-    "median_price": 389000,
+    "median_price": 382500,
     "median_psf": 781,
     "median_rent": 2300,
-    "n": 20,
+    "n": 16,
     "rent_n": 28
    },
    "3 ROOM": {
-    "median_price": 446500,
+    "median_price": 443944,
     "median_psf": 603,
     "median_rent": 2800,
-    "n": 128,
-    "rent_n": 233
+    "n": 106,
+    "rent_n": 231
    },
    "4 ROOM": {
-    "median_price": 620000,
-    "median_psf": 587,
+    "median_price": 613000,
+    "median_psf": 584,
     "median_rent": 3200,
-    "n": 321,
-    "rent_n": 363
+    "n": 271,
+    "rent_n": 381
    },
    "5 ROOM": {
-    "median_price": 783888,
-    "median_psf": 600,
-    "median_rent": 3450,
-    "n": 149,
-    "rent_n": 141
+    "median_price": 789000,
+    "median_psf": 605,
+    "median_rent": 3500,
+    "n": 134,
+    "rent_n": 147
    },
    "EXECUTIVE": {
-    "median_price": 974000,
+    "median_price": 963000,
     "median_psf": 613,
-    "median_rent": 3700,
-    "n": 84,
-    "rent_n": 45
+    "median_rent": 3800,
+    "n": 70,
+    "rent_n": 49
    }
   },
   "JURONG EAST": {
    "2 ROOM": {
-    "median_price": 352000,
-    "median_psf": 750,
-    "median_rent": 2450,
-    "n": 5,
-    "rent_n": 3
+    "median_price": 352500,
+    "median_psf": 744,
+    "median_rent": 2425,
+    "n": 4,
+    "rent_n": 4
    },
    "3 ROOM": {
     "median_price": 400000,
-    "median_psf": 540,
-    "median_rent": 2800,
-    "n": 100,
-    "rent_n": 177
+    "median_psf": 539,
+    "median_rent": 2850,
+    "n": 84,
+    "rent_n": 172
    },
    "4 ROOM": {
-    "median_price": 550000,
-    "median_psf": 536,
+    "median_price": 549000,
+    "median_psf": 529,
     "median_rent": 3500,
-    "n": 75,
-    "rent_n": 158
+    "n": 62,
+    "rent_n": 147
    },
    "5 ROOM": {
-    "median_price": 714000,
-    "median_psf": 550,
-    "median_rent": 3800,
-    "n": 66,
-    "rent_n": 133
+    "median_price": 718000,
+    "median_psf": 551,
+    "median_rent": 3825,
+    "n": 53,
+    "rent_n": 126
    },
    "EXECUTIVE": {
-    "median_price": 920000,
-    "median_psf": 596,
-    "median_rent": 4100,
-    "n": 20,
-    "rent_n": 39
+    "median_price": 900000,
+    "median_psf": 581,
+    "median_rent": 4240,
+    "n": 15,
+    "rent_n": 44
    }
   },
   "JURONG WEST": {
    "2 ROOM": {
-    "median_price": 361500,
-    "median_psf": 720,
+    "median_price": 360000,
+    "median_psf": 721,
     "median_rent": 2500,
-    "n": 16,
-    "rent_n": 26
+    "n": 17,
+    "rent_n": 24
    },
    "3 ROOM": {
     "median_price": 380000,
     "median_psf": 502,
     "median_rent": 2700,
-    "n": 147,
-    "rent_n": 258
+    "n": 124,
+    "rent_n": 235
    },
    "4 ROOM": {
-    "median_price": 525000,
-    "median_psf": 504,
+    "median_price": 530000,
+    "median_psf": 495,
     "median_rent": 3500,
-    "n": 312,
+    "n": 257,
     "rent_n": 491
    },
    "5 ROOM": {
-    "median_price": 630000,
-    "median_psf": 507,
+    "median_price": 628000,
+    "median_psf": 505,
     "median_rent": 3800,
-    "n": 241,
-    "rent_n": 493
+    "n": 199,
+    "rent_n": 501
    },
    "EXECUTIVE": {
-    "median_price": 760000,
-    "median_psf": 502,
+    "median_price": 748000,
+    "median_psf": 501,
     "median_rent": 4000,
-    "n": 75,
-    "rent_n": 126
+    "n": 68,
+    "rent_n": 132
    }
   },
   "KALLANG/WHAMPOA": {
    "2 ROOM": {
-    "median_price": 328000,
-    "median_psf": 681,
-    "median_rent": 2000,
-    "n": 7,
-    "rent_n": 15
+    "median_price": 329000,
+    "median_psf": 705,
+    "median_rent": 2150,
+    "n": 6,
+    "rent_n": 17
    },
    "3 ROOM": {
-    "median_price": 446500,
-    "median_psf": 620,
+    "median_price": 437000,
+    "median_psf": 607,
     "median_rent": 3000,
-    "n": 176,
-    "rent_n": 349
+    "n": 147,
+    "rent_n": 338
    },
    "4 ROOM": {
-    "median_price": 870000,
-    "median_psf": 857,
+    "median_price": 879000,
+    "median_psf": 882,
     "median_rent": 3800,
-    "n": 183,
-    "rent_n": 219
+    "n": 162,
+    "rent_n": 215
    },
    "5 ROOM": {
-    "median_price": 955000,
-    "median_psf": 714,
-    "median_rent": 4000,
-    "n": 71,
-    "rent_n": 91
+    "median_price": 948888,
+    "median_psf": 707,
+    "median_rent": 4025,
+    "n": 65,
+    "rent_n": 90
    },
    "EXECUTIVE": {
     "median_price": 1038000,
     "median_psf": 639,
-    "median_rent": 4700,
+    "median_rent": 4650,
     "n": 13,
-    "rent_n": 7
+    "rent_n": 8
    }
   },
   "MARINE PARADE": {
@@ -1667,31 +1667,31 @@
     "median_price": 460000,
     "median_psf": 650,
     "median_rent": 3000,
-    "n": 35,
-    "rent_n": 100
+    "n": 31,
+    "rent_n": 96
    },
    "4 ROOM": {
-    "median_price": 630000,
-    "median_psf": 706,
-    "median_rent": 3400,
-    "n": 21,
-    "rent_n": 47
+    "median_price": 616444,
+    "median_psf": 694,
+    "median_rent": 3500,
+    "n": 14,
+    "rent_n": 50
    },
    "5 ROOM": {
     "median_price": 1060000,
     "median_psf": 821,
-    "median_rent": 4300,
-    "n": 20,
-    "rent_n": 14
+    "median_rent": 4400,
+    "n": 18,
+    "rent_n": 17
    }
   },
   "PASIR RIS": {
    "2 ROOM": {
     "median_price": 410000,
     "median_psf": 810,
-    "median_rent": 2350,
+    "median_rent": 2500,
     "n": 3,
-    "rent_n": 5
+    "rent_n": 4
    },
    "3 ROOM": {
     "median_price": 609000,
@@ -1701,92 +1701,92 @@
     "rent_n": 17
    },
    "4 ROOM": {
-    "median_price": 630000,
+    "median_price": 629000,
     "median_psf": 558,
     "median_rent": 3400,
-    "n": 154,
-    "rent_n": 183
+    "n": 134,
+    "rent_n": 181
    },
    "5 ROOM": {
-    "median_price": 732500,
-    "median_psf": 541,
+    "median_price": 735000,
+    "median_psf": 544,
     "median_rent": 3600,
-    "n": 130,
-    "rent_n": 154
+    "n": 109,
+    "rent_n": 155
    },
    "EXECUTIVE": {
-    "median_price": 920000,
-    "median_psf": 575,
-    "median_rent": 4000,
-    "n": 124,
-    "rent_n": 103
+    "median_price": 925000,
+    "median_psf": 579,
+    "median_rent": 3975,
+    "n": 111,
+    "rent_n": 100
    }
   },
   "PUNGGOL": {
    "2 ROOM": {
     "median_price": 395000,
-    "median_psf": 830,
+    "median_psf": 840,
     "median_rent": 2400,
-    "n": 71,
-    "rent_n": 69
+    "n": 61,
+    "rent_n": 82
    },
    "3 ROOM": {
     "median_price": 545000,
-    "median_psf": 756,
-    "median_rent": 2875,
-    "n": 97,
+    "median_psf": 755,
+    "median_rent": 2850,
+    "n": 88,
     "rent_n": 91
    },
    "4 ROOM": {
-    "median_price": 680000,
-    "median_psf": 679,
+    "median_price": 675000,
+    "median_psf": 674,
     "median_rent": 3300,
-    "n": 477,
-    "rent_n": 350
+    "n": 401,
+    "rent_n": 372
    },
    "5 ROOM": {
-    "median_price": 803000,
+    "median_price": 801500,
     "median_psf": 658,
     "median_rent": 3300,
-    "n": 305,
-    "rent_n": 330
+    "n": 270,
+    "rent_n": 358
    },
    "EXECUTIVE": {
     "median_price": 814000,
     "median_psf": 587,
     "median_rent": 3600,
-    "n": 14,
-    "rent_n": 27
+    "n": 12,
+    "rent_n": 29
    }
   },
   "QUEENSTOWN": {
    "2 ROOM": {
-    "median_price": 393500,
-    "median_psf": 784,
-    "median_rent": 2550,
-    "n": 14,
+    "median_price": 297000,
+    "median_psf": 600,
+    "median_rent": 2500,
+    "n": 13,
     "rent_n": 20
    },
    "3 ROOM": {
-    "median_price": 505000,
-    "median_psf": 726,
+    "median_price": 513888,
+    "median_psf": 734,
     "median_rent": 3100,
-    "n": 207,
-    "rent_n": 494
+    "n": 168,
+    "rent_n": 488
    },
    "4 ROOM": {
-    "median_price": 1056888,
-    "median_psf": 1078,
-    "median_rent": 4200,
-    "n": 185,
-    "rent_n": 245
+    "median_price": 1068000,
+    "median_psf": 1092,
+    "median_rent": 4300,
+    "n": 159,
+    "rent_n": 233
    },
    "5 ROOM": {
-    "median_price": 1230000,
-    "median_psf": 967,
+    "median_price": 1235000,
+    "median_psf": 1010,
     "median_rent": 4500,
-    "n": 55,
-    "rent_n": 91
+    "n": 46,
+    "rent_n": 90
    },
    "EXECUTIVE": {
     "median_price": 1455000,
@@ -1798,104 +1798,104 @@
   },
   "SEMBAWANG": {
    "2 ROOM": {
-    "median_price": 385000,
-    "median_psf": 808,
+    "median_price": 381900,
+    "median_psf": 799,
     "median_rent": 2350,
-    "n": 46,
-    "rent_n": 62
+    "n": 34,
+    "rent_n": 65
    },
    "3 ROOM": {
-    "median_price": 520000,
-    "median_psf": 710,
+    "median_price": 525000,
+    "median_psf": 721,
     "median_rent": 2800,
-    "n": 37,
-    "rent_n": 18
+    "n": 30,
+    "rent_n": 17
    },
    "4 ROOM": {
     "median_price": 590000,
-    "median_psf": 589,
+    "median_psf": 592,
     "median_rent": 3200,
-    "n": 199,
-    "rent_n": 149
+    "n": 183,
+    "rent_n": 154
    },
    "5 ROOM": {
-    "median_price": 635000,
-    "median_psf": 518,
+    "median_price": 631000,
+    "median_psf": 515,
     "median_rent": 3300,
-    "n": 117,
-    "rent_n": 158
+    "n": 106,
+    "rent_n": 163
    },
    "EXECUTIVE": {
-    "median_price": 748444,
+    "median_price": 740944,
     "median_psf": 523,
     "median_rent": 3500,
-    "n": 28,
-    "rent_n": 56
+    "n": 24,
+    "rent_n": 55
    }
   },
   "SENGKANG": {
    "2 ROOM": {
-    "median_price": 380444,
-    "median_psf": 783,
+    "median_price": 380000,
+    "median_psf": 781,
     "median_rent": 2300,
-    "n": 42,
-    "rent_n": 59
+    "n": 35,
+    "rent_n": 58
    },
    "3 ROOM": {
-    "median_price": 543000,
+    "median_price": 540000,
     "median_psf": 745,
     "median_rent": 2900,
-    "n": 63,
-    "rent_n": 60
+    "n": 52,
+    "rent_n": 62
    },
    "4 ROOM": {
-    "median_price": 638000,
-    "median_psf": 636,
+    "median_price": 635000,
+    "median_psf": 634,
     "median_rent": 3200,
-    "n": 463,
-    "rent_n": 492
+    "n": 401,
+    "rent_n": 477
    },
    "5 ROOM": {
-    "median_price": 690000,
-    "median_psf": 566,
+    "median_price": 695000,
+    "median_psf": 568,
     "median_rent": 3300,
-    "n": 339,
-    "rent_n": 471
+    "n": 291,
+    "rent_n": 464
    },
    "EXECUTIVE": {
-    "median_price": 838000,
+    "median_price": 838444,
     "median_psf": 593,
     "median_rent": 3500,
-    "n": 78,
-    "rent_n": 90
+    "n": 72,
+    "rent_n": 92
    }
   },
   "SERANGOON": {
    "3 ROOM": {
-    "median_price": 468000,
-    "median_psf": 643,
+    "median_price": 470000,
+    "median_psf": 639,
     "median_rent": 2800,
-    "n": 55,
-    "rent_n": 132
+    "n": 43,
+    "rent_n": 126
    },
    "4 ROOM": {
-    "median_price": 663888,
-    "median_psf": 648,
+    "median_price": 657194,
+    "median_psf": 642,
     "median_rent": 3500,
-    "n": 101,
-    "rent_n": 163
+    "n": 96,
+    "rent_n": 164
    },
    "5 ROOM": {
-    "median_price": 841500,
-    "median_psf": 648,
+    "median_price": 845000,
+    "median_psf": 649,
     "median_rent": 3800,
-    "n": 44,
-    "rent_n": 58
+    "n": 37,
+    "rent_n": 53
    },
    "EXECUTIVE": {
     "median_price": 1120000,
     "median_psf": 708,
-    "median_rent": 4400,
+    "median_rent": 4100,
     "n": 29,
     "rent_n": 19
    }
@@ -1904,37 +1904,37 @@
    "2 ROOM": {
     "median_price": 420000,
     "median_psf": 836,
-    "median_rent": 2300,
+    "median_rent": 2250,
     "n": 5,
     "rent_n": 4
    },
    "3 ROOM": {
     "median_price": 490000,
-    "median_psf": 630,
-    "median_rent": 2875,
-    "n": 211,
-    "rent_n": 320
+    "median_psf": 629,
+    "median_rent": 2850,
+    "n": 186,
+    "rent_n": 317
    },
    "4 ROOM": {
-    "median_price": 670000,
-    "median_psf": 617,
+    "median_price": 668000,
+    "median_psf": 616,
     "median_rent": 3500,
-    "n": 532,
-    "rent_n": 460
+    "n": 449,
+    "rent_n": 455
    },
    "5 ROOM": {
-    "median_price": 815444,
-    "median_psf": 607,
-    "median_rent": 3700,
-    "n": 338,
-    "rent_n": 282
+    "median_price": 810000,
+    "median_psf": 605,
+    "median_rent": 3750,
+    "n": 294,
+    "rent_n": 279
    },
    "EXECUTIVE": {
-    "median_price": 980444,
-    "median_psf": 628,
-    "median_rent": 4100,
-    "n": 100,
-    "rent_n": 69
+    "median_price": 985444,
+    "median_psf": 629,
+    "median_rent": 4025,
+    "n": 88,
+    "rent_n": 74
    },
    "MULTI-GENERATION": {
     "median_price": 1135000,
@@ -1952,31 +1952,31 @@
    },
    "3 ROOM": {
     "median_price": 375000,
-    "median_psf": 527,
-    "median_rent": 2950,
-    "n": 218,
-    "rent_n": 386
+    "median_psf": 523,
+    "median_rent": 3000,
+    "n": 182,
+    "rent_n": 379
    },
    "4 ROOM": {
-    "median_price": 1027000,
+    "median_price": 1028000,
     "median_psf": 1039,
     "median_rent": 3800,
-    "n": 227,
-    "rent_n": 191
+    "n": 204,
+    "rent_n": 183
    },
    "5 ROOM": {
-    "median_price": 1055000,
-    "median_psf": 795,
+    "median_price": 1069000,
+    "median_psf": 796,
     "median_rent": 4000,
-    "n": 86,
-    "rent_n": 94
+    "n": 74,
+    "rent_n": 90
    },
    "EXECUTIVE": {
     "median_price": 980000,
     "median_psf": 624,
     "median_rent": 4400,
-    "n": 13,
-    "rent_n": 11
+    "n": 12,
+    "rent_n": 7
    }
   },
   "WOODLANDS": {
@@ -1984,78 +1984,78 @@
     "median_price": 380000,
     "median_psf": 751,
     "median_rent": 2300,
-    "n": 13,
-    "rent_n": 21
+    "n": 10,
+    "rent_n": 24
    },
    "3 ROOM": {
     "median_price": 396500,
-    "median_psf": 539,
-    "median_rent": 2600,
-    "n": 108,
-    "rent_n": 102
+    "median_psf": 532,
+    "median_rent": 2525,
+    "n": 94,
+    "rent_n": 108
    },
    "4 ROOM": {
-    "median_price": 545000,
-    "median_psf": 519,
+    "median_price": 542444,
+    "median_psf": 518,
     "median_rent": 3100,
-    "n": 454,
-    "rent_n": 332
+    "n": 378,
+    "rent_n": 345
    },
    "5 ROOM": {
-    "median_price": 655000,
-    "median_psf": 503,
+    "median_price": 650000,
+    "median_psf": 502,
     "median_rent": 3350,
-    "n": 300,
-    "rent_n": 292
+    "n": 258,
+    "rent_n": 295
    },
    "EXECUTIVE": {
-    "median_price": 896500,
-    "median_psf": 554,
+    "median_price": 890000,
+    "median_psf": 552,
     "median_rent": 3600,
-    "n": 106,
+    "n": 89,
     "rent_n": 67
    }
   },
   "YISHUN": {
    "2 ROOM": {
-    "median_price": 365000,
+    "median_price": 362000,
     "median_psf": 721,
-    "median_rent": 2394,
-    "n": 27,
-    "rent_n": 42
+    "median_rent": 2300,
+    "n": 23,
+    "rent_n": 40
    },
    "3 ROOM": {
-    "median_price": 428000,
+    "median_price": 430000,
     "median_psf": 581,
     "median_rent": 2700,
-    "n": 222,
-    "rent_n": 338
+    "n": 188,
+    "rent_n": 322
    },
    "4 ROOM": {
-    "median_price": 541000,
-    "median_psf": 535,
+    "median_price": 545000,
+    "median_psf": 534,
     "median_rent": 3100,
-    "n": 416,
-    "rent_n": 388
+    "n": 363,
+    "rent_n": 378
    },
    "5 ROOM": {
-    "median_price": 684000,
-    "median_psf": 542,
-    "median_rent": 3475,
-    "n": 156,
-    "rent_n": 146
+    "median_price": 686500,
+    "median_psf": 546,
+    "median_rent": 3400,
+    "n": 140,
+    "rent_n": 139
    },
    "EXECUTIVE": {
     "median_price": 925000,
-    "median_psf": 589,
-    "median_rent": 3725,
-    "n": 27,
-    "rent_n": 30
+    "median_psf": 588,
+    "median_rent": 3800,
+    "n": 24,
+    "rent_n": 28
    },
    "MULTI-GENERATION": {
-    "median_price": 1184000,
-    "median_psf": 659,
-    "n": 4
+    "median_price": 1190000,
+    "median_psf": 678,
+    "n": 3
    }
   }
  }
